@@ -245,7 +245,7 @@ Final occupancy map preview:
 
 Final map area breakdown:
 
-<img src="figures/final_map_area_breakdown%20.jpeg" alt="Final map area breakdown" width="760"/>
+<img src="figures/final_map_area_breakdown.jpeg" alt="Final map area breakdown" width="760"/>
 
 ---
 
@@ -322,7 +322,7 @@ outputs/navigation/emergency_stop_front.json
 
 ## Demonstration videos
 
-Two demonstration videos can be included with the submission:
+The repository includes two demonstration videos:
 
 ```text
 outputs/videos/navigation.mp4
