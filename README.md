@@ -341,7 +341,6 @@ This system worked as an integrated end-to-end robot navigation pipeline, but se
 - The final logged position error is affected by odometry drift and does not perfectly represent the physical stopping position.
 - Early runs drifted toward one wall because the robot had steering trim, floor-friction, wheel-balance, and encoder/odometry bias.
 - Camera feed stability depended on Wi-Fi/camera switching, so the system was designed to keep driving using the saved map and odometry if the camera became unavailable after initial localization.
-- The final implementation does not rely on a particle filter. The submitted navigation pipeline uses AprilTag-based initialization, encoder odometry, A* planning, LiDAR centering, and LiDAR emergency stopping.
 - The occupancy map is suitable for this corridor-scale demonstration, but a larger environment would require stronger localization, loop closure, or scan matching.
 
 ---
