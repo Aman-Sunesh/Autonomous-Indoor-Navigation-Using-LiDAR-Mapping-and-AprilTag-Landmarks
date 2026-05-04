@@ -1,0 +1,15 @@
+{
+  "target_tag": 17,
+  "success": true,
+  "fail_reason": "",
+  "time_to_goal_s": 29.968541383743286,
+  "final_position_error_m": 1.2951510364990853,
+  "final_heading_error_deg": 0.6096193799986611,
+  "collision_count": 0,
+  "loss": 14.48041840317795,
+  "final_pose": {
+    "x_m": 6.901305912810883,
+    "y_m": -0.1266393731561449,
+    "theta_deg": 29.349337097859618
+  }
+}

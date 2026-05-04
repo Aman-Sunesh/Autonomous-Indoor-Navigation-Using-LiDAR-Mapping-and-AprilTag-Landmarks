@@ -1,0 +1,15 @@
+{
+  "target_tag": 17,
+  "success": false,
+  "fail_reason": "Emergency stop: front obstacle/wall too close. Front: 0.17m",
+  "time_to_goal_s": 100.26211619377136,
+  "final_position_error_m": 3.5020443164031425,
+  "final_heading_error_deg": 58.794238915840516,
+  "collision_count": 0,
+  "loss": 42.97326091951202,
+  "final_pose": {
+    "x_m": 7.361980565969354,
+    "y_m": -2.2963503837261428,
+    "theta_deg": -28.835282437982233
+  }
+}

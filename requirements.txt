@@ -1,0 +1,8 @@
+numpy
+opencv-contrib-python
+nicegui
+fastapi
+uvicorn
+matplotlib
+pywebview
+pyserial
