@@ -245,7 +245,7 @@ Final occupancy map preview:
 
 Final map area breakdown:
 
-<img src="figures/final_map_area_breakdown%20(1).jpeg" alt="Final map area breakdown" width="760"/>
+<img src="figures/final_map_area_breakdown%20.jpeg" alt="Final map area breakdown" width="760"/>
 
 ---
 
