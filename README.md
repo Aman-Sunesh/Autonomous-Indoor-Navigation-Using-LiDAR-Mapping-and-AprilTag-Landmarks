@@ -2,7 +2,7 @@
 
 This repository contains a full hardware–software pipeline for autonomous indoor navigation on a small mobile robot. The system builds a 2D occupancy grid map from LiDAR and wheel odometry, registers AprilTags as map landmarks, then uses the saved map and landmark database to navigate toward a selected AprilTag goal with LiDAR-based wall centering and front-obstacle emergency stopping.
 
-In the final navigation demonstration, we selected **Tag 17** as the goal landmark. The robot reached the correct physical AprilTag goal in **29.97 s**, with **0 collisions**, a final heading error of **0.61°**, and a final position error of **1.30 m**. The remaining logged position error mainly reflects odometry/map-frame drift rather than the robot stopping at the wrong target.
+In the final navigation demonstration, we selected **Tag 17** as the goal landmark. The robot reached the correct physical AprilTag goal in **29.97 s**, with **0 collisions**, a final heading error of **0.61°**, and a final logged position error of **1.30 m**. The remaining logged position error mainly reflects odometry/map-frame drift rather than the robot stopping at the wrong target.
 
 ---
 
@@ -12,8 +12,9 @@ In the final navigation demonstration, we selected **Tag 17** as the goal landma
 .
 ├── arduino/
 │   ├── robot_arduino_code.ino
-│   ├── RPLidar.cpp / RPLidar.h
-│   └── RPLidar protocol headers
+|   ├── RPLidar.cpp
+|   ├── RPLidar.h
+|   └── RPLidar protocol headers
 │
 ├── python/
 │   ├── apriltag_detection.py
