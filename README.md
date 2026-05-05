@@ -31,9 +31,13 @@ In the final navigation demonstration, we selected **Tag 17** as the goal landma
 │   │   ├── final_occupancy_grid.pgm
 │   │   └── final_occupancy_grid.yaml
 │   │
-│   └── navigation/
-│       ├── successful_navigation_run_tag17.json
-│       └── emergency_stop_front.json
+│   ├── navigation/
+│   │   ├── successful_navigation_run_tag17.json
+│   │   └── emergency_stop_front.json
+│   │
+│   └── videos/
+│       ├── navigation.mp4
+│       └── emergency_stop.mp4
 │
 ├── figures/
 │   └── README figures and plots
