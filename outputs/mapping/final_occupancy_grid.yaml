@@ -1,4 +1,4 @@
-image: map_20260430_211021.pgm
+image: final_occupancy_grid.pgm
 mode: trinary
 resolution: 0.030000
 origin: [-7.000000, -7.000000, 0.000000]
