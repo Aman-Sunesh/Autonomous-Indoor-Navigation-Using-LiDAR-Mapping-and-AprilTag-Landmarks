@@ -38,7 +38,7 @@ import numpy as np
 # =============================================================================
 # Robot / UDP / odometry settings
 # =============================================================================
-ARDUINO_IP_DEFAULT = "192.168.0.200"
+ARDUINO_IP_DEFAULT = "<Enter Arduino IP>"
 ARDUINO_PORT_DEFAULT = 4010
 LOCAL_UDP_PORT_DEFAULT = 4010
 
